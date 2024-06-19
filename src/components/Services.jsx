@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Montserrat } from "next/font/google";
 import { Poppins } from "next/font/google";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
