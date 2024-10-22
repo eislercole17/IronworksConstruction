@@ -70,7 +70,7 @@ export default function Services() {
               Industry Expertise:
             </h5>
           </a>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-500 text-xl">
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-500 sm:text-xl">
             With years of experience in the industry, our team brings a wealth
             of expertise and knowledge to every project. You can trust us to get
             the job done right the first time, every time.

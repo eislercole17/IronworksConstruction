@@ -33,7 +33,7 @@ export default function Main() {
     <main>
       <div className="w-full min-h-screen">
         <Nav />
-        <div className="grid grid-cols-2 max-lg:grid-cols-1">
+        <div className="grid grid-cols-2 max-lg:grid-cols-1 ">
           {/* white background */}
           <div className="bg-white min-h-screen flex flex-col items-center">
             {/* Contact us text */}
@@ -43,7 +43,7 @@ export default function Main() {
               </h1>
             </div>
             {/* form */}
-            <div className="w-full max-w-lg mt-12">
+            <div className="w-full max-w-lg mt-12 p-4">
               <form ref={form} onSubmit={sendEmail} className="grid grid-cols-2 gap-4">
                 <div>
                   <label htmlFor="first-name" className="text-black block mb-2">
@@ -51,6 +51,7 @@ export default function Main() {
                   </label>
                   <input
                     type="text"
+                    placeholder="John"
                     id="first-name"
                     autoComplete="given-name"
                     name="first_name"
@@ -63,6 +64,7 @@ export default function Main() {
                   </label>
                   <input
                     type="text"
+                    placeholder="Doe"
                     id="last-name"
                     autoComplete="family-name"
                     name="last_name"
@@ -76,6 +78,7 @@ export default function Main() {
                   <input
                     type="email"
                     id="email"
+                    placeholder="John@gmail.com"
                     autoComplete="email"
                     name="user_email"
                     className="w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-yellow-200 "
