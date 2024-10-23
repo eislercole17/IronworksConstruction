@@ -38,6 +38,7 @@ export default function Main() {
             <div className="absolute inset-0 backface-hidden flex flex-col justify-center items-center">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black sm:text-3xl">
                 Flat Deck
+                <h5 className="text-sm absolute">(Tap for more info)</h5>
               </h5>
             </div>
             <div className="absolute inset-0 backface-hidden transform rotate-y-180 flex flex-col justify-center items-center">
@@ -58,6 +59,7 @@ export default function Main() {
             <div className="absolute inset-0 backface-hidden flex flex-col justify-center items-center">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black sm:text-3xl">
                 Truck/Trailer
+                <h5 className="text-sm absolute">(Tap for more info)</h5>
               </h5>
             </div>
             <div className="absolute inset-0 backface-hidden transform rotate-y-180 flex flex-col justify-center items-center text-2xl">
@@ -78,7 +80,8 @@ export default function Main() {
           >
             <div className="absolute inset-0 backface-hidden flex flex-col justify-center items-center">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black sm:text-3xl">
-                Picker Service:
+                Picker Service
+                <h5 className="text-sm absolute">(Tap for more info)</h5>
               </h5>
             </div>
             <div className="absolute inset-0 backface-hidden transform rotate-y-180 flex flex-col justify-center items-center text-2xl">

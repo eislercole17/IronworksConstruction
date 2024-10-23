@@ -6,6 +6,7 @@ import { Poppins } from "next/font/google";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
 const montserrat = Montserrat({ subsets: ["latin"] });
 import { useRef } from "react";
+import Head from 'next/head';
 // import MainText from "@/components/MainText";
 import Services from "@/components/Services.jsx";
 export default function Home() {
@@ -22,6 +23,28 @@ export default function Home() {
     <main
       className={"flex w-full h-full flex-col items-center justify-between"}
     >
+      <Head>
+    
+        <title>Ironworks Construction</title>
+        <meta name="title" content="Ironworks Construction" />
+        <meta name="description" content="Your premier choice for oilfield hauling services. We offer Flat deck hauling, truck and trailer hauling and picker service with lifting capabilities of up to 8000lbs," />
+
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ironworks.construction/" />
+        <meta property="og:title" content="Ironworks Construction" />
+        <meta property="og:description" content="Your premier choice for oilfield hauling services. We offer Flat deck hauling, truck and trailer hauling and picker service with lifting capabilities of up to 8000lbs," />
+        <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://ironworks.construction/" />
+        <meta property="twitter:title" content="Ironworks Construction" />
+        <meta property="twitter:description" content="Your premier choice for oilfield hauling services. We offer Flat deck hauling, truck and trailer hauling and picker service with lifting capabilities of up to 8000lbs," />
+        <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
+      </Head>
+      
       <div
         className="w-full min-h-screen relative grid lg:grid-cols-[2fr,2fr]"
         id="section1"
