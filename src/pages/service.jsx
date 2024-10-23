@@ -78,7 +78,8 @@ export default function Main() {
             }`}
             onClick={() => toggleFlip(2)}
           >
-            <div className="absolute inset-0 backface-hidden flex flex-col justify-center items-center">
+            <div className="absolute inset-0 backface-hidden flex flex-col justify-center items-center" >
+              <meta> Picker Service</meta>
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black sm:text-3xl">
                 Picker Service
                 <h5 className="text-sm absolute">(Tap for more info)</h5>
